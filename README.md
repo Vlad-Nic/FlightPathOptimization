@@ -19,7 +19,11 @@ vertices.
 8.	Generate a Minimal Spanning Tree using Kruskal’s algorithm on G_u that you created in the previous step. The algorithm will output both the content of the constructed MST and its total cost. In this step, for each edge you need to consider the cost as weight to minimize the total cost. If the graph is disconnected the algorithm should provide minimum spanning forest consisting of a minimum spanning tree for each connected component.
 
 Classes Used
+
 •	Vertex: Represents a vertex in the graph. It contains information about the airport code and city.
+
 •	Edge: Represents an edge between two vertices in the graph. It contains information about the source vertex, destination vertex, distance, and cost.
+
 •	Graph: Implements the graph data structure using an adjacency list representation. It includes methods for inserting vertices, adding edges, performing traversals (DFS, BFS), finding shortest paths, and more.
+
 •	MinHeap: Implements a min-heap data structure, used primarily in Dijkstra's algorithm for maintaining the priority queue of vertices based on their distances.
